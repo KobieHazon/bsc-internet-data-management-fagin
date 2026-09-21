@@ -17,7 +17,6 @@ Python 3, CSV, top-k aggregation, Fagin algorithm.
 Run:
 
 ```sh
-make check
 make test
 ```
 
@@ -37,8 +36,7 @@ My submission with Adi Eldar is in [written-answers.pdf](solution/written-answer
 - `solution/`: Written answers.
 - `results/`: Submitted output files.
 - `tests/`: Executable regression tests.
-- `scripts/`: Repository checks and optional live-web tests.
 
-Run `make check` and `make test` from the repository root. The tests use local fixtures; they do not scrape live websites.
+Run `make test` from the repository root. The tests use local fixtures; they do not scrape live websites.
 
 Example: `uv run --no-project python src/question2a.py data/data1.csv data/data2.csv data/data3.csv`.
